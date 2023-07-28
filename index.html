@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+    <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body>
+    <header id="header" class="text-center">
+        <h1>Word Guess Game</h1>
+        <div>
+            <button>Start</button>
+        </div>
+    </header>
+    <main>
+        <section id="word-container" class="flex-center-all">
+            <h2 id="word">
+                J _ v _ S c r _ _ t
+            </h2>
+        </section>
+        <aside>
+            <div id="score-container">
+                <div>
+                    <p>Wins: <span id="wins"></span></p>
+                    <p>Losses: <span id="wins"></span></p>
+                </div>
+                <div class="flex-center-all">
+                    <button>Reset Score</button>
+                </div>
+            </div>
+            <div class="text-center">
+                <h2 id="seconds">10</h2>
+                <p>seconds remaining</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
