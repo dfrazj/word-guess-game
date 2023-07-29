@@ -35,7 +35,6 @@ main section {
     flex: 1 1 100%;
     border: 10px solid black;
     border-top: 0;
-    border-right: 0;
     padding: 1rem;
 }
 
@@ -88,6 +87,7 @@ main aside {
 
     main section {
         flex: 1 1 60%;
+        border-right:0;
     }
     
     main aside {
